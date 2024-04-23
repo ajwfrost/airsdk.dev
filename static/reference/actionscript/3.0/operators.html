@@ -10,13 +10,13 @@
 <body>
 <script type="text/javascript" language="javascript" src="asdoc.js"></script><script type="text/javascript" language="javascript" src="cookies.js"></script><script type="text/javascript" language="javascript">
 <!--
-				asdocTitle = 'Operators - ActionScript 3.0 Language Reference';
+				asdocTitle = 'Operators - ActionScript 3 Language Reference';
 				var baseRef = '';
 				window.onload = configPage;
 			--></script>
 <table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
 <tr>
-<td align="left" class="titleTableTitle">ActionScript 3.0 Language Reference</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('all-classes.html')" href="package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('all-classes.html')" href="class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a href="language-elements.html">Language&nbsp;Elements</a>&nbsp;| <a onclick="loadClassListFrame('index-list.html')" href="all-index-Symbols.html">Index</a>&nbsp;|&nbsp;<a href="appendices.html">Appendices</a>&nbsp;|&nbsp;<a href="conventions.html">Conventions</a>&nbsp;|&nbsp;<a href="index.html?operators.html&amp;all-classes.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="images/logo.jpg"></td>
+<td align="left" class="titleTableTitle">ActionScript 3 Language Reference</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('all-classes.html')" href="package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('all-classes.html')" href="class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a href="language-elements.html">Language&nbsp;Elements</a>&nbsp;| <a onclick="loadClassListFrame('index-list.html')" href="all-index-Symbols.html">Index</a>&nbsp;|&nbsp;<a href="appendices.html">Appendices</a>&nbsp;|&nbsp;<a href="conventions.html">Conventions</a>&nbsp;|&nbsp;<a href="index.html?operators.html&amp;all-classes.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="images/logo.jpg"></td>
 </tr>
 <tr class="titleTableRow2">
 <td align="left" id="subTitle" class="titleTableSubTitle">Operators</td><td align="right" id="subNav" class="titleTableSubNav"></td>
@@ -253,6 +253,9 @@ if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Op
 </tr>
 <tr class="row1">
 <td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableOperatorCol">"</td><td class="summaryTableSignatureCol"><a href="#string_delimiter" class="signatureLink">string delimiter</a></td><td class="summaryTableLastCol">When used before and after characters, indicates that the characters have a literal value and are considered a string, not a variable, numerical value, or other ActionScript element.</td>
+</tr>
+<tr class="row0">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableOperatorCol">@</td><td class="summaryTableSignatureCol"><a href="#verbatim_string_identifier" class="signatureLink">verbatim string identifier</a></td><td class="summaryTableLastCol">Identifies the following String literal is a verbatim string. Verbatim string will ignore escape characters in literal values.</td>
 </tr>
 <tr>
 <th>&nbsp;</th><th colspan="3">XML</th>
@@ -4098,12 +4101,12 @@ x = x * y </pre></p>
 <p></p>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top" style="white-space:nowrap"><b>Language version:&nbsp;</b></td><td>ActionScript 3.0</td>
+<td valign="top" style="white-space:nowrap"><b>Language version:&nbsp;</b></td><td>ActionScript 3.1</td>
 </tr>
 </table>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top" style="white-space:nowrap"><b>Runtime version:&nbsp;</b></td><td>AIR&nbsp;50</td>
+<td valign="top" style="white-space:nowrap"><b>Runtime version:&nbsp;</b></td><td>AIR 50.0</td>
 </tr>
 </table>
 <p></p>
@@ -4160,12 +4163,12 @@ x = x * y </pre></p>
 <p></p>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top" style="white-space:nowrap"><b>Language version:&nbsp;</b></td><td>ActionScript 3.0</td>
+<td valign="top" style="white-space:nowrap"><b>Language version:&nbsp;</b></td><td>ActionScript 3.1</td>
 </tr>
 </table>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top" style="white-space:nowrap"><b>Runtime version:&nbsp;</b></td><td>AIR&nbsp;50</td>
+<td valign="top" style="white-space:nowrap"><b>Runtime version:&nbsp;</b></td><td>AIR 50.0</td>
 </tr>
 </table>
 <p></p>
@@ -4995,6 +4998,50 @@ x = x - y;</pre>
 <a href="#instanceof" target="">instanceof</a>
 <br>
 <a href="#is" target="">is</a>
+</div>
+</div>
+<a name="verbatim_string_identifier"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">@ verbatim string identifier</td><td class="detailHeaderType">operator</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<span class="label">Usage</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>@"text"</code></td>
+</tr>
+</table>
+<p></p>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top" style="white-space:nowrap"><b>Language version:&nbsp;</b></td><td>ActionScript 3.1</td>
+</tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top" style="white-space:nowrap"><b>Runtime version:&nbsp;</b></td><td>AIR 50.0</td>
+</tr>
+</table>
+<p></p>
+<p>Identifies the following String literal is a verbatim string. Verbatim string will ignore escape characters in literal values.</p>
+<p>For example, normal escape sequences (like <code>"\n"</code> for a line breaks), hexadecimal escape sequences (like <code>"\x41"</code> for an uppercase A), or Unicode escape sequences (like <code>"\u0041"</code> for an uppercase A) in verbatim string are interpreted literally.</p>
+<p></p>
+<span class="label">Operands</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">text</span>:<a href="Object.html">String</a></code> &mdash; 
+					A sequence of zero or more characters.
+				</td>
+</tr>
+</table>
+<p></p>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="#string_delimiter" target="">" (string delimiter)</a>
 </div>
 </div>
 <a name="void"></a>

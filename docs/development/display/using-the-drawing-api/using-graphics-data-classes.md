@@ -172,4 +172,4 @@ There are several limitations to reading vector graphics with the
 `readGraphicsData()` method. For more information, see the
 [readGraphicsData()](<https://airsdk.dev/reference/actionscript/3.0/flash/display/Graphics.html#readGraphicsData()>)
 entry in the
-[ActionScript 3.0 Language Reference](https://airsdk.dev/reference/actionscript/3.0/index.html).
+[ActionScript 3 Language Reference](https://airsdk.dev/reference/actionscript/3.0/index.html).

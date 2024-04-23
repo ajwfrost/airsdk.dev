@@ -39,7 +39,7 @@ The types of ActionScript 3.0 code examples are:
   set)
 
 - Class-based examples (found primarily in the
-  [ActionScript 3.0 Language Reference](https://airsdk.dev/reference/actionscript/3.0/index.html))
+  [ActionScript 3 Language Reference](https://airsdk.dev/reference/actionscript/3.0/index.html))
 
 - Practical examples containing multiple source files (download source ZIP file
   from
